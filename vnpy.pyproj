@@ -6,7 +6,7 @@
     <ProjectGuid>{3b4e8787-7f9a-4404-bdca-f05bee920cdd}</ProjectGuid>
     <ProjectHome />
     <StartupFile />
-    <SearchPath />
+    <SearchPath>D:\Anaconda2\Lib\site-packages\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
@@ -21,6 +21,7 @@
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="requirements.txt" />
     <Content Include="vn.archive\vn.cs\hshlp\Hsconfig.ini" />
     <Content Include="vn.archive\vn.cs\hshlp\t2sdk.ini" />
     <Content Include="vn.archive\vn.cs\vncshshlp\test\Hsconfig.ini" />
